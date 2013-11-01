@@ -1,0 +1,14 @@
+<div class='col-sm-6 col-sm-offset-3'>
+    <h1>Mandrill File Sender</h1>
+    <p>
+        This project will allow a file to be sent using Mandrill. It is
+        written in Zend Framework 1 to allow for easy rapid development
+        while maintaining proper MVC constructs.
+    </p>
+    <div>
+        <?php if($this->success === true) { ?>
+        <div class='alert alert-success'>Awesome, your mail has sent. You rock.</div>
+        <?php } ?>
+        <?php echo $this->form ?>
+    </div>
+</div>
